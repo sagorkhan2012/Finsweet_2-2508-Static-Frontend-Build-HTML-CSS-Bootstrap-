@@ -224,16 +224,17 @@ project CSS-start
 .project .image-box{
     position: relative;
     overflow: hidden;
-    
 
 }
+
+
 .project .image-box .overly{
-    width: 52%;
+    width: 100%;
     height: 100%;
     background: rgba(28, 30, 83, .6);
     position: absolute;
     top: 0;
-    left: -52%;
+    left: -100%;
     transition: .4s;
     padding-top: 312px;
     padding-left: 48px;
@@ -243,6 +244,51 @@ project CSS-start
     left: 0%;
     
 }
+
+.project .image-box2{
+    position: relative;
+    overflow: hidden;
+}
+.project .image-box2 .overly{
+   width: 100%;
+    height: 100%;
+    background: rgba(28, 30, 83, .7);
+    position: absolute;
+    top: 0;
+    right: -100%;
+    transition: .4s;
+    padding-top: 312px;
+    padding-left: 48px;
+    color: white ;
+
+}
+.project .image-box2:hover .overly{
+    right: 0%;
+    
+}
+.project .image-box3{
+    position: relative;
+    overflow: hidden;
+}
+.project .image-box3 .overly{
+   width: 100%;
+    height: 100%;
+    background: rgba(28, 30, 83, .7);
+    position: absolute;
+    top: 0;
+    right: 0%;
+    transition: .4s;
+    padding-top: 312px;
+    padding-left: 48px;
+    color: white ;
+
+}
+.project .image-box3:hover .overly{
+    top: 100%;
+    
+}
+
+
 
 /*=========================================
 project CSS-End
